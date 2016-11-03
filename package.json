@@ -1,0 +1,24 @@
+{
+  "name": "adwords-shared-excluded-placements",
+  "version": "0.1.1",
+  "description": "Exclude AdWords placements across accounts based on a list in Google Drive.",
+  "main": "script/index.ts",
+  "scripts": {
+    "test": "npm test",
+    "postinstall": "typings install",
+    "prebuild": "npm run clean && typings install",
+    "build": "tsc",
+    "clean": "rm -r dist"
+  },
+  "keywords": [
+    "AdWords",
+    "Placements"
+  ],
+  "author": "Dawson Reid <dawson@outshine.ca>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:OutshineLabs/adwords-shared-excluded-placements.git"
+  },
+  "homepage": "https://github.com/OutshineLabs/adwords-shared-excluded-placements"
+}

@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "dist",
+        "removeComments": true
+    },
+    "files": [
+      "./typings/index.d.ts",
+      "./script/index.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "bower_components"
+    ]
+}
